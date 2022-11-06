@@ -1,14 +1,13 @@
 -- dont judge :rage:
-
+warn("[!] Seakui executed!")
 
 -- agree
 if _G.Agreed == false then
-game.Players.LocalPlayer:Kick("You must've agreed to our terms before using this script")
+setclipboard("https://discord.gg/BWR2dnA7gj")
+game.Players.LocalPlayer:Kick("You must've agreed to our terms before using this script. Discord invite has been copied to your clipboard")
+	else
+warn("[!] Terms Agreed")
 end
-
-
--- uwu
-warn("[!] Seakui executed!")
 
 
 -- load
