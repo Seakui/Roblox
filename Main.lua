@@ -1,4 +1,9 @@
 -- dont judge :rage:
+
+if _G.Agreed == false then
+game.Players.LocalPlayer:Kick("You must've agreed to our terms before using this script")
+end
+
 warn("[!] Seakui executed!")
 
 if not(game:IsLoaded()) then
