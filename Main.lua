@@ -1,5 +1,5 @@
 -- dont judge :rage:
-
+warn("[!] Seakui executed!")
 
 if not(game:IsLoaded()) then
 	game.Loaded:Wait()
