@@ -31,6 +31,8 @@ end)
 
 if game.PlaceId == 10905034443 then -- Smoothie Factory Tycoon
   loadstring(game:HttpGet('https://raw.githubusercontent.com/Seakui/Games/main/SFT.lua'))()
-	elseif game.PlaceId == 4042427666 or game.PlaceId == 5113678354 or game.PlaceId == 5113680396 or game.PlaceId == 5445525505 or game.PlaceId == 6479720355 then -- Anime Fighting Simulator (Dimensions 1, 2, 3, 4, 5)
+end
+
+if game.PlaceId == 4042427666 or game.PlaceId == 5113678354 or game.PlaceId == 5113680396 or game.PlaceId == 5445525505 or game.PlaceId == 6479720355 then -- Anime Fighting Simulator (Dimensions 1, 2, 3, 4, 5)
   loadstring(game:HttpGet('https://raw.githubusercontent.com/Seakui/Games/main/AFSBOSSIMMUNITY.lua'))()
 end
