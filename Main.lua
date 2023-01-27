@@ -1,7 +1,7 @@
 -- dont judge :rage:
 warn("[!] Seakui executed!")
 
-if _G.123Active123 then
+if _G.yesiamafool then
     game:GetService("StarterGui"):SetCore("SendNotification",{Title = "WARNING",Text = "Already executed!",})
     warn("Script is already active")
     return
@@ -9,7 +9,7 @@ if _G.123Active123 then
     game:GetService("StarterGui"):SetCore("SendNotification",{Title = "WARNING",Text = "Executed!",})
 end
 
-_G.123Active123 = true
+_G.yesiamafool = true
 local plr = game.Players.LocalPlayer
 print("Welcome back, "..plr.Name..".")
 
