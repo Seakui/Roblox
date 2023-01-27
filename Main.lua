@@ -1,11 +1,18 @@
 -- dont judge :rage:
 warn("[!] Seakui executed!")
 
-if _G.CopyDiscord then
-	setclipboard("https://discord.gg/8z56r3YNFa")
-	else
-	game:GetService("StarterGui"):SetCore("SendNotification",{Title = "WARNING",Text = "add _G.CopyDiscord to your script and execute again to copy discord",})
+if _G.123Active123 then
+    game:GetService("StarterGui"):SetCore("SendNotification",{Title = "WARNING",Text = "Already executed!",})
+    warn("Script is already active")
+    return
+    else
+    game:GetService("StarterGui"):SetCore("SendNotification",{Title = "WARNING",Text = "Executed!",})
 end
+
+_G.123Active123 = true
+local plr = game.Players.LocalPlayer
+print("Welcome back, "..plr.Name..".")
+
 -- load
 if not(game:IsLoaded()) then
 	game.Loaded:Wait()
