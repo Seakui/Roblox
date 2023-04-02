@@ -32,6 +32,8 @@ elseif game.PlaceId == 4042427666 or game.PlaceId == 5113678354 or game.PlaceId 
   loadstring(game:HttpGet('https://raw.githubusercontent.com/Seakui/Games/main/AFSBOSSIMMUNITY.lua'))()
 elseif game.PlaceId == 11542692507 then -- Anime Souls Simulator
   loadstring(game:HttpGet('https://raw.githubusercontent.com/Seakui/Games/main/ASS.lua'))()
+elseif game.PlaceId == 12585099889 then -- spes
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Seakui/Games/main/Spes.lua'))()
 elseif game.PlaceId == 9558874729 then
   loadstring(game:HttpGet('https://raw.githubusercontent.com/Seakui/Games/main/SHTS.lua'))()
 	else
