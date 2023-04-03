@@ -1,15 +1,6 @@
 -- dont judge :rage:
-warn("[!] Seakui executed!")
+warn("[!] Executed!")
 
-if _G.cum then
-    game:GetService("StarterGui"):SetCore("SendNotification",{Title = "WARNING",Text = "Already executed!",})
-    warn("Script is already active")
-    return
-    else
-    game:GetService("StarterGui"):SetCore("SendNotification",{Title = "WARNING",Text = "Executed!",})
-end
-
-_G.cum = true
 local plr = game.Players.LocalPlayer
 print("Welcome back, "..plr.Name..".")
 
@@ -34,7 +25,7 @@ elseif game.PlaceId == 11542692507 then -- Anime Souls Simulator
   loadstring(game:HttpGet('https://raw.githubusercontent.com/Seakui/Games/main/ASS.lua'))()
 elseif game.PlaceId == 12585099889 then -- spes
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Seakui/Games/main/Spes.lua'))()
-elseif game.PlaceId == 9558874729 then
+elseif game.PlaceId == 9558874729 then -- super human training simulator
   loadstring(game:HttpGet('https://raw.githubusercontent.com/Seakui/Games/main/SHTS.lua'))()
 	else
   warn("[!] Seakui: Game not supported")
