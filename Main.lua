@@ -28,6 +28,6 @@ elseif game.PlaceId == 12585099889 then -- spes
 elseif game.PlaceId == 9558874729 then -- super human training simulator
   loadstring(game:HttpGet('https://raw.githubusercontent.com/Seakui/Games/main/SHTS.lua'))()
 	else
-  warn("[!] Seakui: Game not supported")
+  warn("[!]: Game not supported")
 game.StarterGui:SetCore( "ChatMakeSystemMessage",  { Text = "Looks like this game isn't supported yet.", Color = Color3.fromRGB(252, 3, 3), Font = Enum.Font.SourceSansBold, FontSize = Enum.FontSize.Size24 })
 end
